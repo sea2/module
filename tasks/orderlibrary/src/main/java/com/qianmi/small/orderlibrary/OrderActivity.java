@@ -16,7 +16,6 @@ import com.qianmi.small.orderlibrary.datas.Order;
 import com.qianmi.small.orderlibrary.interfaces.OperationPresenter;
 import com.qianmi.small.orderlibrary.interfaces.OrderOperationView;
 
-
 public class OrderActivity extends BaseActivity implements View.OnClickListener ,OrderOperationView{
 
     private OperationPresenter operationPresenter;

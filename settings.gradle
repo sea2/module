@@ -1,4 +1,10 @@
 
 
 
-include ':app', ':tasks:baselibrary', ':tasks:ordermanager', ':tasks:pointmanager', ':tasks:orderlibrary'
+include ':app', ':tasks:baselibrary', ':tasks:ordermanager', ':tasks:pointmanager', ':tasks:orderlibrary',
+
+':arouter:lib_common',
+':arouter:module_app',
+':arouter:module_main',
+':arouter:module_girls',
+':arouter:module_news'
